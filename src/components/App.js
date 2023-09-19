@@ -1,11 +1,14 @@
 import React from "react";
+import Nav from "./Nav";
+import Home from "./Home";
 
 
 function App() {
 
     return (
-        <>
-    <h1>In the Beginning</h1>    
+    <>
+    <Nav/>
+    <Home />
     </>
 )
 }
