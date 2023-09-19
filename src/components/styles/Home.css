@@ -1,0 +1,5 @@
+.home-column {
+    flex: 3;
+    margin-left: 25%;
+    overflow-y: auto;
+}

@@ -6,10 +6,14 @@ import Home from "./Home";
 function App() {
 
     return (
-    <>
-    <Nav/>
-    <Home />
-    </>
+        <div className="app-container"> 
+            <div className="nav-column">
+            <Nav />
+            </div>
+            <div className="home-column">
+            <Home />
+            </div>
+        </div>
 )
 }
 

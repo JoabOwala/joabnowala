@@ -1,0 +1,13 @@
+.app-container {
+    display: flex;
+}
+.nav-column {
+    flex: 0 0 auto;
+        background-color: rgb(209, 108, 108);
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 25%;
+        overflow-y: auto;
+}
